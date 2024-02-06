@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-indigo-600 to-sky-900 min-h-screen overflow-y-scroll">
+    <header class="bg-blue-500 py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-white text-2xl font-bold">My Tailwind CSS Page</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-white hover:text-gray-200 text-xl">Home</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200 text-xl">About</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-200 text-xl">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-8 mb-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 shadow-md grid-cols-1 md:col-span-2">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Welcome!</h2>
+                <p class="text-gray-700 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                    sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                    turpis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, esse inventore atque
+                    suscipit laudantium numquam obcaecati reiciendis dolorem. Est vero harum fuga molestias neque.
+                    Mollitia libero similique esse consequuntur. Ipsum.</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto mt-8 bg-gray-200 p-8 shadow-md">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Scrollable Content</h2>
+            <div class="overflow-y-auto max-h-60">
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                    sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                    turpis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, esse inventore atque
+                    suscipit laudantium numquam obcaecati reiciendis dolorem. Est vero harum fuga molestias neque.
+                    Mollitia libero similique esse consequuntur. Ipsum. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed ac ex sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec
+                    tempus urna, at varius turpis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    esse inventore atque suscipit laudantium numquam obcaecati reiciendis dolorem. Est vero harum fuga
+                    molestias neque. Mollitia libero similique esse consequuntur. Ipsum. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Sed ac ex sollicitudin, posuere odio at, mollis arcu. Nulla facilisi.
+                    Nullam nec tempus urna, at varius turpis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci, esse inventore atque suscipit laudantium numquam obcaecati reiciendis dolorem. Est vero
+                    harum fuga molestias neque. Mollitia libero similique esse consequuntur. Ipsum. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Sed ac ex sollicitudin, posuere odio at, mollis arcu. Nulla
+                    facilisi. Nullam nec tempus urna, at varius turpis. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Adipisci, esse inventore atque suscipit laudantium numquam obcaecati reiciendis
+                    dolorem. Est vero harum fuga molestias neque. Mollitia libero similique esse consequuntur. Ipsum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex sollicitudin, posuere odio at,
+                    mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius turpis. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Adipisci, esse inventore atque suscipit laudantium numquam obcaecati
+                    reiciendis dolorem. Est vero harum fuga molestias neque. Mollitia libero similique esse
+                    consequuntur. Ipsum.</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto mt-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">More Content</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 shadow-md">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Content</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                        sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                        turpis.</p>
+                    <button
+                        class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">Button</button>
+                </div>
+                <div class="bg-white p-8 shadow-md">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Content</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                        sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                        turpis.</p>
+                    <button
+                        class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-4">Button</button>
+                </div>
+                <div class="bg-white p-8 shadow-md">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Content</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                        sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                        turpis.</p>
+                    <button
+                        class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mt-4">Button</button>
+                </div>
+                <div class="bg-white p-8 shadow-md">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Content</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                        sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                        turpis.</p>
+                    <button
+                        class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-4">Button</button>
+                </div>
+                <div class="bg-white p-8 shadow-md">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Content</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                        sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                        turpis.</p>
+                    <button
+                        class="bg-stone-500 hover:bg-stone-600 text-white font-bold py-2 px-4 rounded mt-4">Button</button>
+                </div>
+                <div class="bg-white p-8 shadow-md">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Content</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                        sollicitudin, posuere odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius
+                        turpis.</p>
+                    <button
+                        class="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-4 rounded mt-4">Button</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="bg-gradient-to-r from-lime-600 to-sky-900 text-white flex justify-center items-center h-screen">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">About the Author</h2>
+            <p class="text-lg text-center"> My name is Hamza. <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ex
+                sollicitudin, posuere
+                odio at, mollis arcu. Nulla facilisi. Nullam nec tempus urna, at varius turpis. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Adipisci, esse inventore atque suscipit laudantium numquam
+                obcaecati reiciendis dolorem. Est vero harum fuga molestias neque. Mollitia libero similique esse
+                consequuntur. Ipsum.</p>
+        </div>
+    </section>
+
+    <footer class="bg-blue-500 py-4">
+        <div class="container mx-auto text-center text-white">
+            <p>&copy; Tailwind CSS Practice</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
